@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* Common Styles */
+
+.fill-buttons {
+    background-color: #30B868;
+    padding: 12px 16px;
+}
+
+.container{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Header & Navigation styles */
+
+header{
+    background-color: white;
+}
+
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 16px 120px;
+    align-items: center;
+    height: 92px;
+}
+
+.nav-link{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+.nav-link a:hover{
+    text-decoration: underline;
+    font-weight: 700;
+    color: #30B868;
+}
+
+.nav-button {
+    background-color: #30B868;
+    padding: 12px 16px;
+    height: 44px;
+    width: auto;
+    border-radius: 4px;
+    border: none;
+}
+
+.nav-button:hover{
+    background-color: #20864a;
+    box-shadow: 0 4px 16px 8px #00000015;
+}
+
+.nav-button a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
