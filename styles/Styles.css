@@ -35,6 +35,10 @@ header{
     list-style: none;
 }
 
+.logo{
+    cursor: pointer;
+}
+
 .nav-link a{
     text-decoration: none;
     font-size: 16px;
@@ -175,7 +179,7 @@ header{
 }
 
 .hero-button .stroke-btn-hero:hover{
-    border: solid 1px #30B868;
+    border: solid 2px #30B868;
     box-shadow: 0 4px 16px 8px #00000015;
 }
 
@@ -236,6 +240,7 @@ header{
     width: 56px;
     height: 56px;
     background-color: #f95555;
+    margin-top: 20px;
     border-radius: 1000px;
     display: flex;
     align-items: center;
@@ -278,6 +283,7 @@ header{
     margin-top: 70px;
     gap: 60px;
     padding-left: 20px;
+    background-color: white;
 }
 
 .main-image{
@@ -411,6 +417,7 @@ footer{
 #footer{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .social h5{
@@ -423,6 +430,7 @@ footer{
 .social-icons{
     display: flex;
     gap: 16px;
+    margin-top: 16px;
 }
 
 .line hr{
