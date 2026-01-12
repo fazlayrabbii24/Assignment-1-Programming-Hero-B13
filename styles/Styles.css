@@ -7,11 +7,6 @@
 
 /* Common Styles */
 
-.fill-buttons {
-    background-color: #30B868;
-    padding: 12px 16px;
-}
-
 .container{
     width: 75%;
     max-width: 1440px;
@@ -154,6 +149,12 @@ header{
     border: none;
 }
 
+
+.hero-button .fill-btn-hero:hover{
+    background-color: #20864a;
+    box-shadow: 0 4px 16px 8px #00000015;
+}
+
 .hero-button a{
     text-decoration: none;
     color: #ffffff;
@@ -171,4 +172,87 @@ header{
     width: auto;
     border-radius: 4px;
     border: solid 1px white;
+}
+
+.hero-button .stroke-btn-hero:hover{
+    border: solid 1px #30B868;
+    box-shadow: 0 4px 16px 8px #00000015;
+}
+
+/* cards with header */
+
+#with-cards{
+    margin-top: 70px;
+    align-content: center;
+}
+
+.head-text{
+    text-align: center;
+}
+
+.head-text h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+
+.head-text p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #627382;
+    margin-top: 16px;
+}
+
+#with-cards .cards{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.cards-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    margin-top: 48px;
+    border: solid 2px black;
+    border-radius: 8px;
+    padding: 24px 32px;
+    word-break: normal;
+    overflow: break-word;
+}
+.icon{
+    width: 56px;
+    height: 56px;
+    background-color: #f95555;
+    border-radius: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon img{
+    width: 24px;
+    height: 24px;
+}
+
+.cards-details h4{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    color: #001931;
+    margin-top: 16px;
+    white-space: normal;
+}
+
+.cards-details p{
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 300;
+    color: #627382;
+    margin-top: 16px;
 }
